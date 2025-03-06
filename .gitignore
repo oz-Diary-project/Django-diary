@@ -1,12 +1,14 @@
-# 가상환경 관련 파일들 제외
+
 diary_project/.venv/
-diary_project/__pycache__/
+diary_project/config/__pycache__/
+diary_project/config/urls/__pycache__/
+diary_project/config/setings/__pycache__/
 diary_project/db.sqlite3
 diary_project/.mypy_cache/
 diary_project/.pytest_cache/
+.idea
 
-# Poetry 관련 캐시 파일
 diary_project/poetry.lock
 
-# 환경 변수 파일 (중요)
+
 diary_project/.env
